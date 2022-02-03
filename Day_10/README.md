@@ -9,7 +9,7 @@ All of them?! The damage is worse than you thought. You bring up a copy of the n
 The navigation subsystem syntax is made of several lines containing chunks. There are one or more chunks on each line, and chunks contain zero or more other chunks. Adjacent chunks are not separated by any delimiter; if one chunk stops, the next chunk (if any) can immediately start. Every chunk must open and close with one of four legal pairs of matching characters:
 
 If a chunk opens with (, it must close with ).
-If a chunk opens with [, it must close with ].
+If a chunk opens with [, idt must close with ].
 If a chunk opens with {, it must close with }.
 If a chunk opens with <, it must close with >.
 So, () is a legal chunk that contains no other chunks, as is `[]`. More complex but valid chunks include `([])`, `{()()()}`, `<([{}])>`, `[<>({}){}[([])<>]]`, and even `(((((((((())))))))))`.
