@@ -1,3 +1,7 @@
 # Advent of Code
 
-My advent of code solutions for the 2021 set
+My advent of code solutions for previous years. I use this for practice. I write my solutions in:
+
+* Python
+* R
+* Bash script
